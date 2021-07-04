@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-api-conversao
+spec:
+  containers:
+    - name: api-conversao
+      image: brenopolisello/api-conversao-breno:v3
+      ports:
+        - containerPort: 80
